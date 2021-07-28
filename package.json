@@ -1,0 +1,14 @@
+{
+  "name": "routers",
+  "version": "0.0.1",
+  "description": "\"fake apis are served to get data\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karimov Sirojiddin",
+  "license": "MIT",
+  "dependencies": {
+    "axios-mock-adapter": "^1.19.0"
+  }
+}
