@@ -146,5 +146,50 @@
       ]
     }
   ],
-  "adminList": []
+  "adminList": [
+    {
+      "userType": "한화 토탈",
+      "authGroup": "관리자",
+      "id": "userid0",
+      "userName": "임성빈",
+      "phoneNumber": "010-1234-5678",
+      "email": "exam@exam.com",
+      "lastAccessDate": "2021-07-05",
+      "CreationDate": "2021-07-05",
+      "edit": "2021-06-07"
+    },
+    {
+      "userType": "한화 토탈",
+      "authGroup": "관리자",
+      "id": "userid1",
+      "userName": "임성빈",
+      "phoneNumber": "010-1234-5678",
+      "email": "exam@exam.com",
+      "lastAccessDate": "2021-07-05",
+      "CreationDate": "2021-07-05",
+      "edit": "2021-06-07"
+    },
+    {
+      "userType": "한화 토탈",
+      "authGroup": "관리자",
+      "id": "userid2",
+      "userName": "임성빈",
+      "phoneNumber": "010-1234-5678",
+      "email": "exam@exam.com",
+      "lastAccessDate": "2021-07-05",
+      "CreationDate": "2021-07-05",
+      "edit": "2021-06-07"
+    },
+    {
+      "userType": "한화 토탈",
+      "authGroup": "관리자",
+      "id": "userid3",
+      "userName": "임성빈",
+      "phoneNumber": "010-1234-5678",
+      "email": "exam@exam.com",
+      "lastAccessDate": "2021-07-05",
+      "CreationDate": "2021-07-05",
+      "edit": "2021-06-07"
+    }
+  ]
 }
