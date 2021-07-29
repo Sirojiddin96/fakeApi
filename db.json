@@ -144,20 +144,6 @@
           "icon": "menu-icon flaticon-diagram"
         }
       ]
-    },
-    {
-      "id": "04",
-      "title": "Sample",
-      "redirect": "/sample0100",
-      "child": [
-        {
-          "id": "004",
-          "title": "Sample",
-          "name": "Sample0100",
-          "path": "/sample0100",
-          "icon": "menu-icon flaticon-diagram"
-        }
-      ]
     }
   ]
 }
