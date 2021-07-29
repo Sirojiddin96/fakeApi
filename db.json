@@ -1,4 +1,151 @@
 {
+  "routers": [
+    {
+      "id": "00",
+      "title": "모니터링",
+      "name": "Mont001",
+      "path": "/",
+      "icon": "menu-icon flaticon-imac",
+      "child": [
+        {
+          "id": "000",
+          "title": "고장 진단 모니터링",
+          "name": "Mont001",
+          "path": "/mont001",
+          "icon": "menu-icon flaticon-graph"
+        },
+        {
+          "id": "001",
+          "title": "Data 현황 모니터링",
+          "name": "Mont002",
+          "path": "/mont002",
+          "icon": "menu-icon flaticon-diagram"
+        },
+        {
+          "id": "002",
+          "title": "설비 모니터링",
+          "name": "Mont003",
+          "path": "/mont003",
+          "icon": "menu-icon flaticon-graph"
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "진단 기준정보 관리",
+      "redirect": "/rules0100",
+      "icon": "menu-icon flaticon-exclamation-2",
+      "child": [
+        {
+          "id": "000",
+          "title": "설비 관리",
+          "name": "RULES0100",
+          "path": "/rules0100",
+          "icon": "menu-icon flaticon-diagram"
+        },
+        {
+          "id": "001",
+          "title": "진단 유형 관리",
+          "name": "RULES0200",
+          "path": "/rules0200",
+          "icon": "menu-icon flaticon-diagram"
+        },
+        {
+          "id": "002",
+          "title": "진단 Rule 관리",
+          "name": "RULES0300",
+          "path": "/rules0300",
+          "icon": "menu-icon flaticon-diagram"
+        },
+        {
+          "id": "003",
+          "title": "고장 모드 관리",
+          "name": "RULES0400",
+          "path": "/rules0400",
+          "icon": "menu-icon flaticon-diagram"
+        },
+        {
+          "id": "004",
+          "title": "Parameter 관리",
+          "name": "RULES0500",
+          "path": "/rules0500",
+          "icon": "menu-icon flaticon-diagram"
+        },
+        {
+          "id": "005",
+          "title": "Alram 관리",
+          "name": "RULES0600",
+          "path": "/rules0600",
+          "icon": "menu-icon flaticon-diagram"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "진단 Report",
+      "icon": "menu-icon flaticon-edit-1",
+      "redirect": "report0100",
+      "child": [
+        {
+          "id": "000",
+          "title": "Report 검토",
+          "name": "REPORT0100",
+          "path": "/report0100",
+          "icon": "menu-icon flaticon-diagram"
+        },
+        {
+          "id": "001",
+          "title": "Report 조회",
+          "name": "REPORT0200",
+          "path": "/report0200",
+          "icon": "menu-icon flaticon-diagram"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "시스템관리",
+      "icon": "menu-icon flaticon2-user",
+      "redirect": "/admin0100",
+      "child": [
+        {
+          "id": "000",
+          "title": "계정관리",
+          "name": "Admin0100",
+          "path": "/admin0100",
+          "icon": "menu-icon flaticon-diagram"
+        },
+        {
+          "id": "001",
+          "title": "권한관리",
+          "name": "Admin002",
+          "path": "/admin0200",
+          "icon": "menu-icon flaticon-diagram"
+        },
+        {
+          "id": "002",
+          "title": "메뉴관리",
+          "name": "Admin003",
+          "path": "/admin0300",
+          "icon": "menu-icon flaticon-diagram"
+        },
+        {
+          "id": "003",
+          "title": "공통코드 관리",
+          "name": "Admin004",
+          "path": "/admin0400",
+          "icon": "menu-icon flaticon-diagram"
+        },
+        {
+          "id": "004",
+          "title": "개인정보 관리",
+          "name": "Admin005",
+          "path": "/admin0500",
+          "icon": "menu-icon flaticon-diagram"
+        }
+      ]
+    }
+  ],
   "adminList": [
     {
       "userType": "한화 토탈",
