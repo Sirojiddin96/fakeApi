@@ -10,15 +10,15 @@
         {
           "id": "000",
           "title": "고장 진단 모니터링",
-          "name": "Mont001",
-          "path": "/mont001",
+          "name": "Mont0100",
+          "path": "/mont0100",
           "icon": "menu-icon flaticon-graph"
         },
         {
           "id": "002",
           "title": "설비 모니터링",
-          "name": "Mont003",
-          "path": "/mont003",
+          "name": "Mont0200",
+          "path": "/mont0200",
           "icon": "menu-icon flaticon-graph"
         }
       ]
