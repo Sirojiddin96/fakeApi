@@ -5,7 +5,7 @@
       "title": "모니터링",
       "name": "Mont001",
       "path": "/",
-      "icon": "menu-icon flaticon-imac",
+      "icon": "m-icon-01",
       "child": [
         {
           "id": "000",
@@ -27,7 +27,7 @@
       "id": "01",
       "title": "진단 기준정보 관리",
       "redirect": "/rules0100",
-      "icon": "menu-icon flaticon-exclamation-2",
+      "icon": "m-icon-02",
       "child": [
         {
           "id": "000",
@@ -76,7 +76,7 @@
     {
       "id": "02",
       "title": "진단 Report",
-      "icon": "menu-icon flaticon-edit-1",
+      "icon": "m-icon-03",
       "redirect": "report0100",
       "child": [
         {
@@ -98,7 +98,7 @@
     {
       "id": "03",
       "title": "시스템관리",
-      "icon": "menu-icon flaticon2-user",
+      "icon": "m-icon-04",
       "redirect": "/admin0100",
       "child": [
         {
