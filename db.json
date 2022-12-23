@@ -1,195 +1,37 @@
 {
-  "routers": [
-    {
-      "id": "00",
-      "title": "모니터링",
-      "name": "Mont001",
-      "path": "/",
-      "icon": "m-icon-01",
-      "child": [
-        {
-          "id": "000",
-          "title": "고장 진단 모니터링",
-          "name": "Mont0100",
-          "path": "/mont0100",
-          "icon": "menu-icon flaticon-graph"
-        },
-        {
-          "id": "002",
-          "title": "설비 모니터링",
-          "name": "Mont0200",
-          "path": "/mont0200",
-          "icon": "menu-icon flaticon-graph"
-        }
-      ]
-    },
+  "productTypes": [
     {
       "id": "01",
-      "title": "진단 기준정보 관리",
-      "redirect": "/rules0100",
-      "icon": "m-icon-02",
-      "child": [
-        {
-          "id": "000",
-          "title": "설비 관리",
-          "name": "RULES0100",
-          "path": "/rules0100",
-          "icon": "menu-icon flaticon-diagram"
-        },
-        {
-          "id": "001",
-          "title": "진단 유형 관리",
-          "name": "RULES0200",
-          "path": "/rules0200",
-          "icon": "menu-icon flaticon-diagram"
-        },
-        {
-          "id": "002",
-          "title": "진단 Rule 관리",
-          "name": "RULES0300",
-          "path": "/rules0300",
-          "icon": "menu-icon flaticon-diagram"
-        },
-        {
-          "id": "003",
-          "title": "고장 모드 관리",
-          "name": "RULES0400",
-          "path": "/rules0400",
-          "icon": "menu-icon flaticon-diagram"
-        },
-        {
-          "id": "004",
-          "title": "Parameter 관리",
-          "name": "RULES0500",
-          "path": "/rules0500",
-          "icon": "menu-icon flaticon-diagram"
-        },
-        {
-          "id": "005",
-          "title": "Alram 관리",
-          "name": "RULES0600",
-          "path": "/rules0600",
-          "icon": "menu-icon flaticon-diagram"
-        }
-      ]
+      "name": "Adidas"
     },
     {
       "id": "02",
-      "title": "진단 Report",
-      "icon": "m-icon-03",
-      "redirect": "report0100",
-      "child": [
-        {
-          "id": "000",
-          "title": "Report 검토",
-          "name": "REPORT0100",
-          "path": "/report0100",
-          "icon": "menu-icon flaticon-diagram"
-        },
-        {
-          "id": "001",
-          "title": "Report 조회",
-          "name": "REPORT0200",
-          "path": "/report0200",
-          "icon": "menu-icon flaticon-diagram"
-        }
-      ]
+      "name": "Nike"
     },
     {
       "id": "03",
-      "title": "시스템관리",
-      "icon": "m-icon-04",
-      "redirect": "/admin0100",
-      "child": [
-        {
-          "id": "000",
-          "title": "계정관리",
-          "name": "Admin0100",
-          "path": "/admin0100",
-          "icon": "menu-icon flaticon-diagram"
-        },
-        {
-          "id": "001",
-          "title": "권한관리",
-          "name": "Admin0200",
-          "path": "/admin0200",
-          "icon": "menu-icon flaticon-diagram"
-        },
-        {
-          "id": "002",
-          "title": "메뉴관리",
-          "name": "Admin0300",
-          "path": "/admin0300",
-          "icon": "menu-icon flaticon-diagram"
-        },
-        {
-          "id": "003",
-          "title": "공통코드 관리",
-          "name": "Admin0400",
-          "path": "/admin0400",
-          "icon": "menu-icon flaticon-diagram"
-        },
-        {
-          "id": "004",
-          "title": "개인정보 관리",
-          "name": "Admin0500",
-          "path": "/admin0500",
-          "icon": "menu-icon flaticon-diagram"
-        },
-        {
-          "id": "005",
-          "title": "Data 현황 모니터링",
-          "name": "Admin0600",
-          "path": "/admin0600",
-          "icon": "menu-icon flaticon-diagram"
-        }
-      ]
+      "name": "Puma"
+    },
+    {
+      "id": "05",
+      "name": "Zara"
     }
   ],
-  "adminList": [
+  "products":[
     {
-      "userType": "한화 토탈",
-      "authGroup": "관리자",
-      "id": "userid0",
-      "userName": "임성빈",
-      "phoneNumber": "010-1234-5678",
-      "email": "exam@exam.com",
-      "lastAccessDate": "2021-07-05",
-      "CreationDate": "2021-07-05",
-      "edit": "2021-06-07"
+      "id":"001",
+      "name":"Good Shoes",
+      "categoryId":"01"
     },
     {
-      "userType": "한화 토탈",
-      "authGroup": "관리자",
-      "id": "userid1",
-      "userName": "임성빈",
-      "phoneNumber": "010-1234-5678",
-      "email": "exam@exam.com",
-      "lastAccessDate": "2021-07-05",
-      "CreationDate": "2021-07-05",
-      "edit": "2021-06-07"
+      "id":"002",
+      "name":"Good Shoes 2",
+      "categoryId":"02"
     },
     {
-      "userType": "한화 토탈",
-      "authGroup": "관리자",
-      "id": "userid2",
-      "userName": "임성빈",
-      "phoneNumber": "010-1234-5678",
-      "email": "exam@exam.com",
-      "lastAccessDate": "2021-07-05",
-      "CreationDate": "2021-07-05",
-      "edit": "2021-06-07"
-    },
-    {
-      "userType": "한화 토탈",
-      "authGroup": "관리자",
-      "id": "userid3",
-      "userName": "임성빈",
-      "phoneNumber": "010-1234-5678",
-      "email": "exam@exam.com",
-      "lastAccessDate": "2021-07-05",
-      "CreationDate": "2021-07-05",
-      "edit": "2021-06-07"
+      "id":"003",
+      "name":"Good Shoes 3",
+      "categoryId":"03"
     }
   ]
 }
